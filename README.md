@@ -1,16 +1,110 @@
-# React + Vite
+# FinSight - Modern Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FinSight is an innovative finance dashboard that allows users to keep track of their finances and visualize their financial information using interactive features and charts.
 
-Currently, two official plugins are available:
+---
+Assessment Submission
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This project is submitted as part of the Frontend Developer Intern Screening Assessment for Zorvyn FinTech Pvt. Ltd.
 
-## React Compiler
+ All code in this repository is original and developed by me specifically for this assessment.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the ESLint configuration
+---
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Financial dashboard
+* Expense/Income tracking
+* Data visualization (charts)
+* Smart insights (AI/logic-based)
+* Secure and user-friendly interface
+* Fast performance
+
+---
+
+## Technologies
+
+* **Front-end:** React.js / HTML / CSS / JS
+* **Back-end:** Node.js / Express.js *(if used)*
+* **DB:** MongoDB/Firebase *(if used)*
+* **Deployment:** Vercel / Netlify
+
+---
+
+## Screenshots
+
+*Add screenshots of your application here*
+
+---
+
+## Live Demo
+
+🔗 https://finsight-lyart.vercel.app/
+
+---
+
+## GitHub Repository
+
+🔗 https://github.com/3407Naveen/FinSight
+
+---
+
+## Installation & Usage
+
+```bash
+# Clone repository
+git clone https://github.com/3407Naveen/FinSight.git
+
+# Change directory to the cloned directory
+cd FinSight
+
+# Install dependencies
+npm install
+
+# Start the app
+npm start
+```
+
+---
+
+## Usage
+
+* Track expense/income for each day 
+* Visualize information on the chart
+* Get smart insights about your finances
+
+---
+
+## Contributing
+
+Contributions are greatly appreciated
+
+1. Fork the repository 
+2. Create a new feature branch (`feature-xyz`)
+3. Commit changes
+4. Push your branch
+5. Submit a Pull Request
+
+---
+
+## License
+---
+
+## Acknowledgements
+
+* Inspired by modern finance dashboards
+* Many thanks to open-source projects and tools
+
+---
+
+## Author
+
+### Naveen S
+
+* Github: [3407Naveen](https://github.com/3407Naveen)
+
+---
+
+## Support
+
+If you liked this project give it a star and spread the word.
