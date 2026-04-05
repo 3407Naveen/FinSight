@@ -58,7 +58,7 @@ const AddTransactionModal = ({ isOpen, onClose, onAdd }) => {
 
           <div>
             <label className="block text-sm font-medium text-slate-600 dark:text-slate-300 mb-1">
-              Amount ($)
+              Amount (₹)
             </label>
             <input 
               type="number" 

@@ -118,7 +118,7 @@ const ChartsSection = () => {
                   ))}
                 </Pie>
                 <Tooltip 
-                  formatter={(value) => `$${value}`}
+                  formatter={(value) => `₹${value}`}
                   contentStyle={{ backgroundColor: '#1e293b', border: 'none', borderRadius: '8px', color: '#f8fafc' }}
                 />
                 <Legend verticalAlign="bottom" height={36} />

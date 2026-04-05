@@ -30,7 +30,7 @@ const TransactionTable = ({ transactions, role, deleteTransaction }) => {
                   </span>
                 </td>
                 <td className={`py-3 px-4 text-right font-semibold ${tx.type === 'income' ? 'text-emerald-600 dark:text-emerald-400' : 'text-slate-800 dark:text-slate-100'}`}>
-                  {tx.type === 'income' ? '+' : '-'}${Number(tx.amount).toFixed(2)}
+                  {tx.type === 'income' ? '+' : '-'}₹{Number(tx.amount).toFixed(2)}
                 </td>
                 
                 {role === "Admin" && (

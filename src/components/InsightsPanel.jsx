@@ -38,7 +38,7 @@ const InsightsPanel = () => {
     if (totalExpense > totalIncome && totalIncome > 0) {
       data.recentAlert = "Warning: Your total expenses have exceeded your income!";
     } else if (expenses.some((tx) => Number(tx.amount) > 1000)) {
-      data.recentAlert = "Large singular expense detected over $1,000.";
+      data.recentAlert = "Large singular expense detected over ₹1,000.";
     }
 
     return data;
@@ -64,7 +64,7 @@ const InsightsPanel = () => {
             </p>
             <p className="text-sm font-medium text-slate-800 dark:text-slate-200">
               {insights.highestAmount > 0 
-                ? `${insights.highestCategory} ($${insights.highestAmount.toFixed(2)})`
+                ? `${insights.highestCategory} (₹${insights.highestAmount.toFixed(2)})`
                 : "No expenses recorded"}
             </p>
           </div>
